@@ -6,7 +6,7 @@ dataset: Logical Fallacy Dataset
 
 # Fallacy Classifier
 
-This is a repository for a Flask web-app hosted on [Replit](https://Fallacy-Classification.kyutifer.repl.co) that implements the [distilbert-base-fallacy-classification model](https://huggingface.co/q3fer/distilbert-base-fallacy-classification). The model is a fine-tuned version of [distilbert-base-uncased](https://huggingface.co/distilbert-base-uncased) for text classification of logical fallacies. There are a total of 14 classes: ad hominem, ad populum, appeal to emotion, circular reasoning, equivocation, fallacy of credibility, fallacy of extension, fallacy of logic, fallacy of relevance, false causality, false dilemma, faulty generalization, intentional, and miscellaneous.
+This is the repository for a Flask web-app hosted on [Replit](https://Fallacy-Classification.kyutifer.repl.co) that implements the [distilbert-base-fallacy-classification model](https://huggingface.co/q3fer/distilbert-base-fallacy-classification). The model is a fine-tuned version of [distilbert-base-uncased](https://huggingface.co/distilbert-base-uncased) for text classification of logical fallacies. There are a total of 14 classes: ad hominem, ad populum, appeal to emotion, circular reasoning, equivocation, fallacy of credibility, fallacy of extension, fallacy of logic, fallacy of relevance, false causality, false dilemma, faulty generalization, intentional, and miscellaneous.
 
 ## Training and evaluation data
 
