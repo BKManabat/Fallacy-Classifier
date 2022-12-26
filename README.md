@@ -6,7 +6,7 @@ dataset: Logical Fallacy Dataset
 
 ## Fallacy Classifier
 
-This is the repository for a Flask web-app hosted on [Replit](https://Fallacy-Classification.kyutifer.repl.co) that implements the [distilbert-base-fallacy-classification model](https://huggingface.co/q3fer/distilbert-base-fallacy-classification).
+This is the repository for a Flask web-app hosted on [Replit](https://Fallacy-Classification.kyutifer.repl.co) that implements the [distilbert-base-fallacy-classification model](https://huggingface.co/q3fer/distilbert-base-fallacy-classification). The notebook used for training is also included.
 
 ### Usage
 
