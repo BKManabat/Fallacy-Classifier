@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fallacy Classification App</title>
+  <link rel="stylesheet" href="./static/styles.css">
+</head>
+<body>
+  <!-- Modal -->
+  <div id="modal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close" id="modal-close">&times;</span>
+      <h2 id="modal-label"></h2>
+      <p id="modal-definition"></p>
+      <p><strong>Example:</strong> <span id="modal-example"></span></p>
+    </div>
+  </div>
+  <div class="container">
+    <h1>Fallacy Classification</h1>
+    <p>Enter a statement suspected to contain a logical fallacy:</p>
+    <form id="form">
+      <input type="text" id="input" placeholder="Enter statement here">
+      <button type="submit">Classify</button>
+    </form>
+    <div id="results">
+      <!-- Results will be displayed here -->
+    </div>
+    <button id="show-all" style="display:none;">Show All</button>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="./static/script.js"></script>
+</body>
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <p class="credits">Powered by <a href="https://huggingface.co/q3fer/distilbert-base-fallacy-classification">q3fer/distilbert-base-fallacy-classification</a></p>
+        <p class="credits">Trained on the <a href="https://github.com/tmakesense/logical-fallacy/tree/main/dataset-fixed">Logical Fallacy Dataset</a></p>
+        <p class="license">Licensed under the <a href="https://opensource.org/licenses/MIT">MIT License</a></p>
+      </div>
+    </div>
+  </div>
+</footer>
+</html>
